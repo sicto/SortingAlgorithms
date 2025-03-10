@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Algorithms</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="buttons-container">
+    <div class="input-wrap">
+      <input type="number" id="numElementsInput" placeholder="Enter number of elements" min="2" max="1500" />
+      <div id="elementRange" class="range-info">Min: 2, Max: 1500</div>
+    </div>
+    <button id="createArrayBtn" class="create-btn" onclick="createArray()">Create Array</button>
+    <button id="sortArrayBtn" onclick="bubbleSort()">Bubble Sort</button>
+    <button id="resetBtn" style="margin-left: auto;">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
