@@ -136,6 +136,11 @@ input {
   bottom: -12px;
 }
 
+.pivot {
+  background: rgb(195, 129, 41);
+}
+
+
 @media (max-width: 768px) {
   button {
     font-size: 14px;
